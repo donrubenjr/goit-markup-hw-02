@@ -13,7 +13,6 @@ body {
   color: var(--NAVY-BLUE);
   font-family: Raleway;
   font-size: 18px;
-  /* font-style: normal; */
   font-weight: 800;
   line-height: 21px; /* 116.667% */
   letter-spacing: 0.54px;
@@ -23,6 +22,34 @@ body {
 .menu-logo span {
   color: var(--IRIS);
 }
+
+.header-menu-list {
+  list-style: none;
+}
+
+.header-menu-link {
+  text-decoration: none;
+  color: var(--NAVY-BLUE);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px; /* 150% */
+  letter-spacing: 0.32px;
+  list-style-type: none;
+}
+
+.contact-menu-list {
+  list-style: none;
+}
+
+.contact-menu .contact-menu-link {
+  text-decoration: none;
+  color: var(--NAVY-BLUE);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px; /* 150% */
+  letter-spacing: 0.32px;
+}
+
 /* Hero Section */
 .hero-section {
   background-color: var(--NAVY-BLUE);
@@ -35,7 +62,6 @@ h1 {
   /* Header 1 */
   font-family: Roboto;
   font-size: 56px;
-  /* font-style: normal; */
   font-weight: 700;
   line-height: 60px; /* 107.143% */
   letter-spacing: 1.12px;
@@ -43,29 +69,40 @@ h1 {
 
 button {
   /* Button Layout */
-  display: inline-flex;
+  /* display: inline-flex;
   padding: 16px 32px;
   align-items: flex-start;
-  gap: 10px;
+  gap: 10px; */
+
   /* Button Style */
-  border-radius: 4px;
+  /* border-radius: 4px; */
   background: var(--IRIS);
-  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  /* box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15); */
   color: var(--WHITE, #fff);
+
   /* Button Text */
   font-family: Roboto;
   font-size: 16px;
+
   /* font-style: normal; */
   font-weight: 500;
   line-height: 24px; /* 150% */
   letter-spacing: 0.64px;
 }
 
+/* Section for Article */
+.section-article li {
+  list-style: none;
+}
+
+.section-article p {
+  letter-spacing: 0.72px;
+}
+
+/* Section for Gadget */
 .section-gadget h2 {
   color: var(--NAVY-BLUE);
   text-align: center;
-
-  /* Section for Gadget */
   font-size: 36px;
   font-weight: 700;
   line-height: 40px; /* 111.111% */
